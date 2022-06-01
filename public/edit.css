@@ -1,0 +1,71 @@
+:root{
+    --main-color:  #A40865;
+    --back-color: #CEA4B2;
+    --light-color: #F8EFF4;
+    --main-heading: #405170;
+    --sub-heading: #97A0B4;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:"Poppins";
+    background:var(--light-color);
+    display: flex;
+    height: 100vh;
+    
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    margin-top: 4rem;
+    width: 500px;
+    background: white;
+    text-align: center;
+    padding: 20px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.edit-title{
+    color: var(--main-heading);
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+.form-con{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+
+    justify-content: space-between;
+}
+.form-con label{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--main-heading);
+}
+.btn{
+    background: var(--main-color);
+    padding: 10px 40px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: "poppins";
+    text-decoration: none;
+    margin-top: 0.8rem;
+    display: inline-block;
+    cursor: pointer;
+}
+.form-con input{
+    border: none;
+    font-family: "poppins";
+    font-size: 0.8rem;
+    padding: 10px;
+    border: 1px solid var(--sub-heading);
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+}
